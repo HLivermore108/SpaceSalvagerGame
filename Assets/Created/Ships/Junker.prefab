@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &705180914212036316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1073798048220644, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_Name
+      value: Junker
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.221
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.221
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.221
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -47.985622
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.717
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124929174317312, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1073798048220644, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6899510310553418235}
+    - targetCorrespondingSourceObject: {fileID: 1073798048220644, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2714438069305019783}
+  m_SourcePrefab: {fileID: 100100000, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+--- !u!1 &705550921564150584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1073798048220644, guid: e0c87617521568e4c81b2bb96e5e6989, type: 3}
+  m_PrefabInstance: {fileID: 705180914212036316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6899510310553418235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705550921564150584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6505d8d30345cc46b0c6a061a7f6fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShipUnit
+  shipName: Junker
+  ownerId: 3
+  speed: 1
+  currentTile: {fileID: 0}
+  hoverHeight: 0.5
+--- !u!65 &2714438069305019783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705550921564150584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.7, y: 4.6583323, z: 13.492261}
+  m_Center: {x: 0, y: 2.6716554, z: 0}
